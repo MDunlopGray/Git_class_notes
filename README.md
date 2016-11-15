@@ -1,3 +1,4 @@
+[[images/git.jpg|alt=]]
 # TTA566 - Introduction to Git
 
 ## Links
