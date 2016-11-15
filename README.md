@@ -104,6 +104,14 @@ user@yourmachine:~$ git add somefile.txt
 user@yourmachine:~$ git add .
 ```
 
+## git rm
+* Remove a file from version control
+* Syntax:
+
+```sh
+user@yourmachine:~$ git rm somefile.txt
+```
+
 ## git commit
 * Commit any changed files
 * Commit any added files
@@ -134,9 +142,27 @@ user@yourmachine:~$ git checkout somefile.txt
 ```
 * The above command replaces your local version of *somefile.txt* with the remote repo version of it
 
-Development is typically: ```git add, git commit, git push, git commit, git push, git status, git commit, git push, ...```
+Development is typically: ```git add, git commit, git push, git commit, git push, git status, git commit, git push, ...```. Here are some examples:
 
+## Example - Adding a new file
+```sh
+user@yourmachine:~$ git add somefile.txt
+user@yourmachine:~$ git commit -m "adding a new file to the repo" .
+user@yourmachine:~$ git push
+```
 
+## Example - Modifying a file
+```sh
+user@yourmachine:~$ git commit -m "adding a new file to the repo" somefile.txt
+user@yourmachine:~$ git push
+```
+
+## Example - Deleting a file
+```sh
+user@yourmachine:~$ git rm somefile.txt
+user@yourmachine:~$ git commit -m "removed this file from version control" somefile.txt
+user@yourmachine:~$ git push
+```
 
 
 
