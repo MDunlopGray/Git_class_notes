@@ -3,7 +3,7 @@
 
 ***
 
-## Introduction
+# Introduction
 
 ### Links
 * [Git](https://git-scm.com/) - some documentation, downloads, etc. 
