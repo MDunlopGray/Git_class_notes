@@ -1,6 +1,6 @@
 ![Git image from https://git-scm.com/](images/git.png)
 # TTA566 - Introduction to Git
-
+---
 ## Introduction
 
 ### Links
@@ -39,7 +39,7 @@
 * **Sarah**: I saw that. I already merged my changes.
 * **Mary**: I just pulled the latest version. My changes will be in shortly.
 * **Jim**: I just pushed in more changes, but it won't affect either of you.
-
+---
 ## Getting Git
 
 ### You may already have it.
@@ -48,7 +48,7 @@ user@yourmachine:~$ git --version
 ```
 
 ### Download it: [link](https://git-scm.com/downloads)
-
+---
 ## **Lab 1 - Create a GitHub Repository**
 * Go to [GithHub.com](https://github.com/) and sign up for a free account
 * For now, consider everything **public**
@@ -58,13 +58,13 @@ user@yourmachine:~$ git --version
     * Select *Public*
 	* Check *Initialize this repository with a README*
 * Find the HTTPS and SSH URLs to clone the repository (you will need this later)
-
+---
 ## Git Concepts
 * Make changes in your local computer's repo, then push them to the remote repo
 * Developers have all revisions of the code, since the most recent *pull*
 * There are three areas: working directory (local), staging area (local), and repository host (remote)
 * You add files to be versioned, modify/delete files, commit changes to the staging area, and push files to the remote repository for all to see.
-
+---
 ## Basic Git Commands
 
 ### git clone
