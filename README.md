@@ -206,6 +206,9 @@ user@yourmachine:~$ git diff HEAD~3 somefile.txt
 * Bitbucket (overview)
 * Branches, release branches, merging
 * Simple DevOps example (dev branch, master branch)
-* Markdown files, readme.md, sample.md, online markdown editors
+* Markdown files, readme.md, sample.md, online markdown editors:
+    * [Dillinger](http://dillinger.io/)
+    * [JBT](https://jbt.github.io/markdown-editor/)
+    * [StackEdit](https://stackedit.io/editor)
 * Git submodule example
 * Cloning or downloading zip file of TTA566 Gitlab repo
