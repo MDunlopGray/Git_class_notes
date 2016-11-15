@@ -31,7 +31,7 @@
 * *Mary, Jim, and Sarah work on a project.*
 * **Jim**: I've made my changes. I emailed you a zip file of the project.
 * **Sarah**: Got it. I'm making my changes now.
-* **Mary**: Sarah- please email me a zip file when you're done.
+* **Mary**: Sarah- I'll stop by with a USB stick to copy your files.
 * **Jim**: I have more changes, but I'll wait for Mary to finish.
 
 ### After Git...
@@ -49,9 +49,55 @@ user@yourmachine:~$ git --version
 
 ### Download it: [link](https://git-scm.com/downloads)
 
-## **Lab 1 - Create a GitHub account**
+## **Lab 1 - Create a GitHub Repository**
 * Go to [GithHub.com](https://github.com/) and sign up for a free account
-* For now, consider everything public
+* For now, consider everything **public**
+* Create a new repository
+    * Name it **helloworld**
+	* Add a *Description*
+    * Select *Public*
+	* Check *Initialize this repository with a README*
+* Find the HTTPS and SSH URLs to clone the repository (you will need this later)
+
+## Git Concepts
+* Make changes in your local computer's repo, then push them to the remote repo
+* Developers have all revisions of the code, since the most recent *pull*
+* There are three areas: working directory (local), staging area (local), and repository host (remote)
+* You add files to be versioned, modify/delete files, commit changes to the staging area, and push files to the remote repository for all to see.
+
+## Basic Git Commands
+
+### git clone
+* Clone(copy) the remote repository to your local computer
+* Creates a local folder with the same name as your remote repo
+* You can now make changes locally and push them to the remote server
+* You need the HTTPS or SSH URL to clone a repo
+* Syntax:
+```sh
+user@yourmachine:~$ git clone https://github.com/CoachEd/helloworld.git
+```
+* Note the new *helloworld* folder on your computer
+* Add, modify, or delete files and folders in the local repo (helloworld folder)
+
+### git status
+* See the current status of your local repo
+* Are there new files/folders not currently versioned?
+* Are there any changes to existing files/folders?
+* Are there any deleted files/folders?
+* Are there any changes that need to be committed to the staging area?
+* Is there anything in the staging area that needs to be pushed to the remote repo?
+* Syntax:
+```sh
+user@yourmachine:~$ git status
+```
+
+
+
+
+
+
+
+
 
 
 
