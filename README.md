@@ -164,7 +164,10 @@ user@yourmachine:~$ git commit -m "removed this file from version control" somef
 user@yourmachine:~$ git push
 ```
 
-
+## Example - Get the online version of a file (reverting local changes)
+```sh
+user@yourmachine:~$ git checkout somefile.txt
+```
 
 
 
