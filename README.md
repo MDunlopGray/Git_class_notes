@@ -14,6 +14,7 @@
 ## What even is Git?
 * *Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.*
 * Makes it easy to manage project versions, among one or many authors
+* Facilitates versioning, branching, and merging
 * Popular
 
 ## What is a Git "repo"?
@@ -183,7 +184,16 @@ user@yourmachine:~$ git checkout somefile.txt
 user@yourmachine:~$ git diff HEAD~3 somefile.txt
 ```
 
-
+# **Lab 2 - Using the *helloworld* GitHub Repository**
+* Go into the *helloworld* directory
+* Create three files called: fruit.txt, colors.txt, and universities.txt
+* Add three entries to each of the files
+* Add the files to your *helloworld* GitHub repository
+* Add three more entries to each of the files
+* Commit these changes to your repo
+* View your files on GitHub.com
+* Look at the commit history on GitHub.com
+* Delete the _universities.txt_ file from your repository
 
 
 
