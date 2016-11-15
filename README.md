@@ -186,16 +186,16 @@ user@yourmachine:~$ git diff HEAD~3 somefile.txt
 ```
 
 # **Lab 2 - Using the *helloworld* GitHub Repository**
-* Go into the *helloworld* directory
-* Create three files called: *fruit.txt*, *colors.txt*, and *universities.txt*
-* Add three entries to each of the files
-* Add the files to your *helloworld* GitHub repository
-* Add three more entries to each of the files
-* Commit these changes to your repo
-* View your files on GitHub.com
-* Look at the commit history on GitHub.com
-* Delete the *universities.txt* file from your repository
-* **Bonus question**: Is the *universities.txt* file gone forever? If not, can you retrieve it?
+1. Go into the *helloworld* directory
+1. Create three files called: *fruit.txt*, *colors.txt*, and *universities.txt*
+1. Add three entries to each of the files
+1. Add the files to your *helloworld* GitHub repository
+1. Add three more entries to each of the files
+1. Commit these changes to your repo
+1. View your files on GitHub.com
+1. Look at the commit history on GitHub.com
+1. Delete the *universities.txt* file from your repository
+1. **Bonus question**: Is the *universities.txt* file gone forever? If not, can you retrieve it?
 
 # **TODO TOPICS**
 
