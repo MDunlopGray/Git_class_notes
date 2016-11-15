@@ -1,4 +1,4 @@
-![Git image from https://git-scm.com/](images/git.jpg)
+![Git image from https://git-scm.com/](images/git.png)
 # TTA566 - Introduction to Git
 
 ## Links
