@@ -113,7 +113,7 @@ user@yourmachine:~$ git add .
 ```sh
 user@yourmachine:~$ git push origin master
 ```
-
+* The above command pushes your local changes to the master branch of your online repo
 
 ## git push
 
