@@ -1,7 +1,7 @@
 ![Git image from https://git-scm.com/](images/git.png)
 # **TTA566 - Introduction to Git**
 
-# Introduction
+# **Introduction**
 
 ## Links
 * [Git](https://git-scm.com/) - some documentation, downloads, etc. 
@@ -40,7 +40,7 @@
 * **Mary**: I just pulled the latest version. My changes will be in shortly.
 * **Jim**: I just pushed in more changes, but it won't affect either of you.
 
-# Getting Git
+# **Getting Git**
 
 ## You may already have it.
 ```sh
@@ -59,14 +59,14 @@ user@yourmachine:~$ git --version
 	* Check *Initialize this repository with a README*
 * Find the HTTPS and SSH URLs to clone the repository (you will need this later)
 
-# Git Concepts
+# **Concepts**
 * Make changes in your local computer's repo, then push them to the remote repo
 * Developers have all revisions of the code, since the most recent *pull*
 * There are three areas: working directory (local), staging area (local), and repository host (remote)
 * You add files to be versioned, modify/delete files, commit changes to the staging area, and push files to the remote repository for all to see.
 
 
-# Basic Git Commands
+# **Basic Git Commands**
 
 ## git clone
 * Clone(copy) the remote repository to your local computer
