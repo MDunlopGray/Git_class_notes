@@ -52,6 +52,7 @@ user@yourmachine:~$ git --version
 # **Lab 1 - Create a GitHub Repository**
 * Go to [GithHub.com](https://github.com/) and sign up for a free account
 * For now, consider everything **public**
+* Add an avatar to your profile
 * Create a new repository
     * Name it **helloworld**
 	* Add a *Description*
@@ -64,7 +65,6 @@ user@yourmachine:~$ git --version
 * Developers have all revisions of the code, since the most recent *pull*
 * There are three areas: working directory (local), staging area (local), and repository host (remote)
 * You add files to be versioned, modify/delete files, commit changes to the staging area, and push files to the remote repository for all to see.
-
 
 # **Basic Git Commands**
 
@@ -95,6 +95,14 @@ user@yourmachine:~$ git status
 ```
 
 ## git add
+* Add new local files to the staging area
+* Can add one file at a time or all at once(.)
+* Syntax:
+
+```sh
+user@yourmachine:~$ git add somefile.txt
+user@yourmachine:~$ git add .
+```
 
 ## git commit
 
