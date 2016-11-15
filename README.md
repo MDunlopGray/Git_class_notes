@@ -1,4 +1,4 @@
-[[images/git.jpg|alt=]]
+![Image of Yaktocat](images/git.jpg)
 # TTA566 - Introduction to Git
 
 ## Links
