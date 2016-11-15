@@ -124,6 +124,16 @@ user@yourmachine:~$ git push origin master
 ```
 * The above command pushes your local changes to the master branch of your online repo
 
+## git checkout
+* Restore working files
+* Switch branches
+* For example, if you want to revert to the repo version of somefile.txt:
+
+```sh
+user@yourmachine:~$ git checkout somefile.txt
+```
+* The above command replaces your local version of somefile.txt with the remote repo version of it
+
 Development is typically: ```git add, git commit, git push, git commit, git push, git status, git commit, git push, ...```
 
 
