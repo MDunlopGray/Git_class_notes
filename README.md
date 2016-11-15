@@ -73,6 +73,7 @@ user@yourmachine:~$ git --version
 * You can now make changes locally and push them to the remote server
 * You need the HTTPS or SSH URL to clone a repo
 * Syntax:
+
 ```sh
 user@yourmachine:~$ git clone https://github.com/CoachEd/helloworld.git
 ```
@@ -87,6 +88,7 @@ user@yourmachine:~$ git clone https://github.com/CoachEd/helloworld.git
 * Are there any changes that need to be committed to the staging area?
 * Is there anything in the staging area that needs to be pushed to the remote repo?
 * Syntax:
+
 ```sh
 user@yourmachine:~$ git status
 ```
