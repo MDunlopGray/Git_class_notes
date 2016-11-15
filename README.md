@@ -105,6 +105,15 @@ user@yourmachine:~$ git add .
 ```
 
 ## git commit
+* Commit any changed files
+* Commit any added files
+* Must *push* to update online repo
+* Syntax:
+
+```sh
+user@yourmachine:~$ git push origin master
+```
+
 
 ## git push
 
