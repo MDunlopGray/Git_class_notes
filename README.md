@@ -107,6 +107,7 @@ user@yourmachine:~$ git add .
 
 ## git rm
 * Remove a file from version control
+* An alternate way is to just delete it from your local folder and commit that change
 * Syntax:
 
 ```sh
@@ -194,9 +195,6 @@ user@yourmachine:~$ git diff HEAD~3 somefile.txt
 * View your files on GitHub.com
 * Look at the commit history on GitHub.com
 * Delete the _universities.txt_ file from your repository
-
-
-
-
+* **Bonus question**: Is the _universities.txt file gone forever? If not, can you retrieve it?
 
 
