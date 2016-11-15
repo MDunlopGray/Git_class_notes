@@ -51,15 +51,15 @@ user@yourmachine:~$ git --version
 ## Download it: [link](https://git-scm.com/downloads)
 
 # **Lab 1 - Create a GitHub Repository**
-* Go to [GithHub.com](https://github.com/) and sign up for a free account
-* For now, consider everything **public**
-* Add an avatar to your profile
-* Create a new repository
+1. Go to [GithHub.com](https://github.com/) and sign up for a free account
+1. For now, consider everything **public**
+1. Add an avatar to your profile
+1. Create a new repository
     * Name it **helloworld**
 	* Add a *Description*
     * Select *Public*
 	* Check *Initialize this repository with a README*
-* Find the HTTPS and SSH URLs to clone the repository (you will need this later)
+1. Find the HTTPS and SSH URLs to clone the repository (you will need this later)
 
 # **Concepts**
 * Make changes in your local computer's repo, then push them to the remote repo
