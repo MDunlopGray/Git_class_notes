@@ -194,7 +194,18 @@ user@yourmachine:~$ git diff HEAD~3 somefile.txt
 * Commit these changes to your repo
 * View your files on GitHub.com
 * Look at the commit history on GitHub.com
-* Delete the _universities.txt_ file from your repository
-* **Bonus question**: Is the _universities.txt file gone forever? If not, can you retrieve it?
+* Delete the *universities.txt* file from your repository
+* **Bonus question**: Is the *universities.txt* file gone forever? If not, can you retrieve it?
 
+# Topics
 
+* .gitignore (simple Java example, ignore .class files, ignore folders)
+* Merging lab
+* Getting started on Gitlab.mitre.org
+* Atlassian Stash (overview)
+* Bitbucket (overview)
+* Branches, release branches, merging
+* Simple DevOps example (dev branch, master branch)
+* Markdown files, readme.md, sample.md, online markdown editors
+* Git submodule example
+* Cloning or downloading zip file of TTA566 Gitlab repo
