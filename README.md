@@ -187,7 +187,7 @@ user@yourmachine:~$ git diff HEAD~3 somefile.txt
 
 # **Lab 2 - Using the *helloworld* GitHub Repository**
 * Go into the *helloworld* directory
-* Create three files called: fruit.txt, colors.txt, and universities.txt
+* Create three files called: *fruit.txt*, *colors.txt*, and *universities.txt*
 * Add three entries to each of the files
 * Add the files to your *helloworld* GitHub repository
 * Add three more entries to each of the files
@@ -204,7 +204,9 @@ user@yourmachine:~$ git diff HEAD~3 somefile.txt
 * Getting started on Gitlab.mitre.org
 * Atlassian Stash (overview)
 * Bitbucket (overview); two-factor authentication option
-* Branches, release branches, merging
+* Branches, release branches, merging (create a repo that has multiple branches)
+* Tagging: simple-lightweight
+* Changing branches locally (once you've pulled in a repo that has multiple branches)
 * Simple DevOps example (dev branch, master branch)
 * Markdown files, readme.md, sample.md, online markdown editors:
     * [Dillinger](http://dillinger.io/)
