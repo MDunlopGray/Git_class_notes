@@ -93,6 +93,14 @@ user@yourmachine:~$ git clone https://github.com/CoachEd/helloworld.git
 user@yourmachine:~$ git status
 ```
 
+### git add
+
+### git commit
+
+### git push
+
+
+
 
 
 
