@@ -107,7 +107,16 @@ user@yourmachine:~$ git add .
 ## git commit
 * Commit any changed files
 * Commit any added files
-* Must *push* to update online repo
+* Still have to *push* to update online repo
+* Syntax:
+
+```sh
+user@yourmachine:~$ git commit -m "some useful message" .
+```
+* The -m option specifies a useful message for the commit
+
+## git push
+* Push commited changes from one repo to another repo
 * Syntax:
 
 ```sh
@@ -115,8 +124,7 @@ user@yourmachine:~$ git push origin master
 ```
 * The above command pushes your local changes to the master branch of your online repo
 
-## git push
-
+Development is typically: ```git add, git commit, git push, git commit, git push, git status, git commit, git push, ...```
 
 
 
