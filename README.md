@@ -217,3 +217,4 @@ user@yourmachine:~$ git diff HEAD~3 somefile.txt
 * Setting up for SSH access
 * Communication and Git: Skype, Slack, HipChat
 
+
