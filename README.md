@@ -186,6 +186,7 @@ user@yourmachine:~$ git diff HEAD~3 somefile.txt
 ```
 
 # **Lab 2 - Using the *helloworld* GitHub Repository**
+1. Clone your *helloworld* repo to your local machine
 1. Go into the *helloworld* directory
 1. Create three files called: *fruit.txt*, *colors.txt*, and *universities.txt*
 1. Add three entries to each of the files
@@ -197,9 +198,50 @@ user@yourmachine:~$ git diff HEAD~3 somefile.txt
 1. Delete the *universities.txt* file from your repository
 1. **Bonus question**: Is the *universities.txt* file gone forever? If not, can you retrieve it?
 
-# **TODO TOPICS**
+# **Ignoring Files**
 
-* .gitignore (simple Java example, ignore .class files, ignore folders)
+Sometimes you don't want Git to version files. Instead, Git should ignore these files completely. You do that with a *.gitignore* file.
+* A *.gitignore* file is a plain text file
+* Git ignores entries in the *.gitignore* file 
+* Entries may be file types or entire directories
+* Use # for comments
+
+Here is a sample *.gitignore* file:
+
+```sh
+# ignore a particular file
+a.out
+
+# ignore some file types in the current folder and subfolders
+*.class
+*.o
+
+# ignore an entire directory
+foo/
+```
+
+# **Lab 3 - Ignoring Files and Folders**
+1. Create a new repository in GitHub
+    * Name it **project1**
+	* Add a *Description*
+    * Select *Public*
+	* Check *Initialize this repository with a README*
+1. Clone the *project1* repo to your local machine
+1. Go into the *project1* directory
+1. Create a C program called *main.c* that prints *Hello C!* to the screen
+1. Compile the *main.c* program
+1. Create a Java program that prints *Hello Java!* to the screen
+1. Compile the Java program
+1. Create a folder called *private*
+1. In the *private* folder, create text files called: ids.txt, addresses.txt, logging.c, and logging.java
+1. Enter ```git status``` to see the files Git knows about
+1. Create a *.gitignore* file to ignore the a.out, *.class, ids.txt, and addressess.txt files
+1. Enter ```git status``` to check your work 
+
+
+
+
+# **TODO TOPICS**
 * Merging lab
 * Getting started on Gitlab.mitre.org
 * Atlassian Stash (overview)
