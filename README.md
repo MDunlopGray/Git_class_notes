@@ -240,6 +240,7 @@ foo/
 
 # **Lightweight Tags**
 What if you want to go back to a specific commit point? This could be a specific version of the project. You can use lightweight tags to tag the project at a particular point in time. To tag a repo:
+
 * Commit all changes for the current version of the project
 * Create the tag: ```git tag sometag```
 * Push the tag: ```git push --tags```
