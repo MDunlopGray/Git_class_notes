@@ -222,7 +222,7 @@ foo/
 
 # **Lab 3 - Ignoring Files and Folders**
 1. Create a new repository in GitHub
-    * Name it **project1**
+    * Name it *project1*
 	* Add a *Description*
     * Select *Public*
 	* Check *Initialize this repository with a README*
@@ -233,12 +233,60 @@ foo/
 1. Create a Java program that prints *Hello Java!* to the screen
 1. Compile the Java program
 1. Create a folder called *private*
-1. In the *private* folder, create text files called: ids.txt, addresses.txt, logging.c, and logging.java
+1. In the *private* folder, create text files called: *ids.txt*, *addresses.txt*, *logging.c*, and *logging.java*
 1. Enter ```git status``` to see the files Git knows about
-1. Create a *.gitignore* file to ignore the a.out, *.class, ids.txt, and addressess.txt files
+1. Create a *.gitignore* file to ignore the a.out, Java class, ids.txt, and addressess.txt files
 1. Enter ```git status``` to check your work 
 
+# **Lightweight Tags**
+What if you want to go back to a specific commit point? This could be a specific version of the project. You can use lightweight tags to tag the project at a particular point in time. To tag a repo:
+* Commit all changes for the current version of the project
+* Create the tag: ```git tag sometag```
+* Push the tag: ```git push --tags```
 
+To list existing tags in the repo:
+```git tag -l```
+
+To check out a tagged version of the project:
+```git checkout sometag```
+
+To get the tag of the current version in the local folder:
+```git describe --abbrev=0 --tags```
+
+# **Lab 4 - Tagging a Project**
+1. Create a new repository in GitHub
+    * Name it *project2*
+	* Add a *Description*
+    * Select *Public*
+	* Check *Initialize this repository with a README*
+1. Clone the *project2* repo to your local machine
+1. Go into the *project2* directory
+1. Create a file called *play.txt* with the following entries:
+	* Soccer
+	* Football
+	* Tennis
+1. Create a file called *professionals.txt* with the following entries:
+	* Ronaldo
+	* Prescott
+	* Federer
+1. Add, commit, and push the files to the remote repo
+1. Create a lightweight tag called "sports.yyyymmdd", where yyyymmdd is the current date
+1. Push the tag to the remote repo
+1. List the tags in the local repo
+1. Modify the *play.txt* file to have just these entries:
+	* Rock
+	* Rap
+	* Country
+1. Modify the *professionals.txt* file to have just these entries:
+	* Journey
+	* Run-D.M.C.
+	* Garth Brooks
+1. Commit and push your changes to the remote repo
+1. Create a lightweight tag called "music.yyyymmdd", where yyyymmdd is the current date
+1. Push the tag to the remote repo
+1. List the tags in the local repo
+1. Check out the sports.*yyyymmdd* tagged version of the project
+1. Note that the *play.txt* and *professionals.txt* files have changed back
 
 
 # **TODO TOPICS**
