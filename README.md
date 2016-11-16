@@ -347,14 +347,12 @@ git push
 
 
 # **TODO TOPICS**
-* Merging lab
+* Merging changes to the same file by multiple developers lab
 * Getting started on Gitlab.mitre.org
 * Atlassian Stash (overview)
 * Bitbucket (overview); two-factor authentication option
 * Branches, release branches, merging (create a repo that has multiple branches)
-* Tagging: simple-lightweight
 * Changing branches locally (once you've pulled in a repo that has multiple branches)
-* Simple DevOps example (dev branch, master branch)
 * Markdown files, readme.md, sample.md, online markdown editors:
     * [Dillinger](http://dillinger.io/)
     * [JBT](https://jbt.github.io/markdown-editor/)
