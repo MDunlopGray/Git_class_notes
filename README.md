@@ -153,7 +153,7 @@ user@yourmachine:~$ git diff somefile.txt
 ```
 * The above command compares your local version of somefile.txt with the online repo version
 
-Development is typically: ```git add, git commit, git push, git commit, git push, git status, git commit, git push, ...```. Here are some examples:
+Workflow is typically: ```git add, git commit, git push, git commit, git push, git status, git commit, git push, ...```. Here are some examples:
 
 ## Example - Adding a new file
 ```sh
@@ -296,12 +296,12 @@ Git allows you to create branches of your project.
 * Branches are like different versions of your project
 * Branches may stay separate, or they can merge
 * For example, you may have three branches of a project for three separate customers
-* Another example is having master and development branches
+* Another example is having master and develop branches
 	* You can think of a master branch as a production or release version of software
 	* The master branch always has a working version of the software
 	* Developers *never* make changes in the master branch
-	* Developers *do* make changes in the development branch
-	* When the development branch is tested and ready for production, you *merge* the development and master branches
+	* Developers *do* make changes in the develop branch
+	* When the develop branch is tested and ready for production, you *merge* the develop and master branches
 	* Create a lightweight tag to tag the master release version
 
 To create a branch:
@@ -318,11 +318,11 @@ To push changes to a remote branch:
 
 To merge the current branch with another branch:
 ```
-git merge development
+git merge develop
 git push
 ```
 	
-# **Lab 5 - Using Master and Development Branches**
+# **Lab 5 - Using Master and Develop Branches**
 1. Create a new repository in GitHub
     * Name it *project3*
 	* Add a *Description*
@@ -332,18 +332,18 @@ git push
 1. Go into the *project3* directory
 1. Create a helloworld.java program that prints "Hello world." to the terminal.
 1. Add, commit, and push it to the master branch. This is the initial push to create the master branch.
-1. Create a new branch called *development*
-1. Switch to the *development* branch
+1. Create a new branch called *develop*
+1. Switch to the *develop* branch
 1. Modify the helloworld.java file
-1. Commit and push the change to the development branch
-1. Make a few more changes to the helloworld.java file and commit/push them to the development branch
-1. Go into GitHub and note the differences in the master and development versions of the helloworld.java file
+1. Commit and push the change to the develop branch
+1. Make a few more changes to the helloworld.java file and commit/push them to the develop branch
+1. Go into GitHub and note the differences in the master and develop versions of the helloworld.java file
 1. Switch to the master branch
-1. Merge the master branch with the development branch
+1. Merge the master branch with the develop branch
 1. Push the merge into the remote repo
 1. Create a lightweight tag named *v1.0*
 1. Push the tag into the remote repo
-1. Go into GitHub and note the differences in the master and development versions of the helloworld.java file
+1. Go into GitHub and note the differences in the master and develop versions of the helloworld.java file
 
 
 # **TODO TOPICS**
