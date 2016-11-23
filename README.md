@@ -316,6 +316,9 @@ To commit changes to a branch:
 To push changes to a remote branch:
 ```git push origin branchname```
 
+To pull the latest to a remote branch:
+```git pull origin branchname```
+
 To merge the current branch with another branch:
 ```
 git merge develop
