@@ -168,12 +168,18 @@ user@yourmachine:~$ git commit -m "adding a new file to the repo" somefile.txt
 user@yourmachine:~$ git push
 ```
 
-## Example - Deleting a file
+## Example - Deleting a file from version control, but keeping it in the remote repository
 ```sh
 user@yourmachine:~$ git rm somefile.txt
 user@yourmachine:~$ git commit -m "removed this file from version control" somefile.txt
 user@yourmachine:~$ git push
 ```
+
+## Example - Remove a file from version control, leave it in the working tree, and leave it in the local repository
+user@yourmachine:~$ git rm --cached 'docs/some dir/somefile.txt'
+user@yourmachine:~$ git update-index --assume-unchanged 'docs/some dir/somefile.txt'
+user@yourmachine:~$ git commit -m "removed this file from version control" 'docs/some dir/somefile.txt'
+user@yourmachine:~$ git push
 
 ## Example - Get the online version of a file (reverting local changes)
 ```sh
