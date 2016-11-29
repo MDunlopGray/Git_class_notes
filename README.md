@@ -370,5 +370,6 @@ git push
 * Cloning or downloading zip file of TTA566 Gitlab repo
 * Setting up for SSH access
 * Communication and Git: Skype, Slack, HipChat
-
+*
+*
 
