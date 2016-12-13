@@ -316,6 +316,9 @@ To create a branch:
 To check out a branch:
 ```git checkout branchname```
 
+To set the remote upstream:
+```git push --set-upstream origin develop```
+
 To commit changes to a branch:
 ```git commit -m "some message" .```
 
@@ -327,8 +330,11 @@ To pull the latest to a remote branch:
 
 To merge the current branch with another branch:
 ```
+git checkout develop
+git pull origin develop
+git checkout master
 git merge develop
-git push
+git push origin master
 ```
 	
 # **Lab 5 - Using Master and Develop Branches**
