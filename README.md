@@ -153,7 +153,11 @@ user@yourmachine:~$ git diff somefile.txt
 ```
 * The above command compares your local version of somefile.txt with the online repo version
 
-## Workflow is typically: ```git add, git commit, git push, git commit, git push, git status, git commit, git push, ...```. Here are some examples:
+## Typical Workflow
+
+```git add, git commit, git push, git commit, git push, git status, git commit, git push, ...```. 
+
+Here are some examples:
 
 ## Example - Adding a new file
 ```sh
