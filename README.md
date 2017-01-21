@@ -345,21 +345,20 @@ Git allows you to create branches of your project.
 * Branches may stay separate, or they can merge
 * For example, you may have three branches of a project for three separate customers
 * Another example is having master and develop branches
+    * You typically see this in DevOps environments
 	* You can think of a master branch as a production or release version of software
 	* The master branch always has a working version of the software
 	* Developers *never* make changes in the master branch
 	* Developers *do* make changes in the develop branch
 	* When the develop branch is tested and ready for production, you *merge* the develop and master branches
 	* Create a lightweight tag to tag the master release version
+	* Tell the deployment team to pull the tagged release from the master branch
 
 To create a branch:
 ```git branch branchname```
 
 To check out a branch:
 ```git checkout branchname```
-
-To set the remote upstream:
-```git push --set-upstream origin develop```
 
 To commit changes to a branch:
 ```git commit -m "some message" .```
@@ -380,6 +379,7 @@ git push origin master
 ```
 	
 # **Lab 5 - Using Master and Develop Branches**
+
 1. Create a new repository in GitHub
     * Name it *project3*
 	* Add a *Description*
@@ -396,12 +396,31 @@ git push origin master
 1. Make a few more changes to the helloworld.java file and commit/push them to the develop branch
 1. Go into GitHub and note the differences in the master and develop versions of the helloworld.java file
 1. Switch to the master branch
+1. View the helloworld.java file; note that the development changes are not there yet
 1. Merge the master branch with the develop branch
 1. Push the merge into the remote repo
 1. Create a lightweight tag named *v1.0*
 1. Push the tag into the remote repo
 1. Go into GitHub and note the differences in the master and develop versions of the helloworld.java file
 
+# Multiple Contributors
+
+Git allows multiple developers to contribute to the same project. With a web host like GitHub, developers may be remote. 
+
+If possible, try to avoid having multiple developers modify a single file simultaneously. However, Git can merge changes if developers modify independent sections.
+
+# **Lab 6 - Multiple Contributors on One File **
+
+This lab demonstrates how multiple contributors can work in the same repo. If multiple developers modify independent sections of the same file, then Git will merge changes.
+
+* Teacher *
+
+1. Clone the MultipleContributors repo: ```user@yourmachine:~$ git clone git@github.com:CoachEd/MultipleContributors.git```
+1. Add each student as a collaborator: MultipleContributors > Settings > Collaborators > Add collaborator
+
+* Students *
+1. Clone the MultipleContributors repo: ```user@yourmachine:~$ git clone git@github.com:CoachEd/MultipleContributors.git```
+1. 
 
 # **TODO TOPICS**
 * Merging changes to the same file by multiple developers lab
