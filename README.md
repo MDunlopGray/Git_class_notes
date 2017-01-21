@@ -52,6 +52,15 @@ user@yourmachine:~$ git --version
 
 ## On Ubuntu: ```user@yourmachine:~$ sudo apt install git ```
 
+# **Is Git Secure?**
+
+* Remote repos may be in the cloud (e.g., GitHub.com)
+* Remote repos may be inside a corporate network (e.g., Gitlab.mitre.org)
+* Repos can be private
+* Two-factor authentication (e.g., Bitbucket.org)
+* Clone repos via HTTPS or SSH (password protected too)
+* Secure your local computer
+
 # **Lab 1 - Create a GitHub Repository**
 1. Go to [GithHub.com](https://github.com/) and sign up for a free account
 1. For now, consider everything **public**
