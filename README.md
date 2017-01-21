@@ -179,7 +179,7 @@ user@yourmachine:~$ git commit -m "removed this file from version control" somef
 user@yourmachine:~$ git push
 ```
 
-## Example - Remove a file from version control, leave it in the working tree, and leave it in the local repository
+## Example - Remove a file from version control, but leave it in the working tree and local repository
 user@yourmachine:~$ git rm --cached 'docs/some dir/somefile.txt'
 user@yourmachine:~$ git update-index --assume-unchanged 'docs/some dir/somefile.txt'
 user@yourmachine:~$ git commit -m "removed this file from version control" 'docs/some dir/somefile.txt'
