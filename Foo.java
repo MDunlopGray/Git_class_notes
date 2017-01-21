@@ -102,65 +102,65 @@ public class Foo {
 		System.out.println("][ d88888888888888888888888888888888888888888888888888888888888888888[");
 
 
-		//STUDENT 24: Print 1 space, 1 lowercase b, 1 lowercase d, 65 number eights, 1 uppercase P
+		//STUDENT 23: Print 1 space, 1 lowercase b, 1 lowercase d, 65 number eights, 1 uppercase P
 		System.out.println(" bd88888888888888888888888888888888888888888888888888888888888888888P");
 
 
-		//STUDENT 25: Print 1 space, 1 right square bracket, 14 number eights, 1 uppercase P, 2 single quotes, 2 spaces, 2 backticks, 45 number eights,
+		//STUDENT 24: Print 1 space, 1 right square bracket, 14 number eights, 1 uppercase P, 2 single quotes, 2 spaces, 2 backticks, 45 number eights,
 		// 1 left square bracket
 		System.out.println(" ]88888888888888P''  ``888888888888888888888888888888888888888888888[");
 
 
-		//STUDENT 26: Print 2 spaces, 1 uppercase Y, 12 number eights, 1 uppercase P, 8 spaces, 43 number eights, 1 uppercase P    
+		//STUDENT 25: Print 2 spaces, 1 uppercase Y, 12 number eights, 1 uppercase P, 8 spaces, 43 number eights, 1 uppercase P    
 		System.out.println("  Y888888888888P        8888888888888888888888888888888888888888888P");
 
 
-		//STUDENT 27: Print 3 spaces, 12 number eights, 1 lowercase b, 8 spaces, 1 lowercase d, 41 number eights, 1 uppercase P    
+		//STUDENT 26: Print 3 spaces, 12 number eights, 1 lowercase b, 8 spaces, 1 lowercase d, 41 number eights, 1 uppercase P    
 		System.out.println("   888888888888b        d88888888888888888888888888888888888888888P'");
 
 
-		//STUDENT 28: Print 3 spaces, 1 backtick, 12 number eights, 1 uppercase L, 6 spaces, 1 lowercase d, 41 number eights, 1 uppercase P       
+		//STUDENT 27: Print 3 spaces, 1 backtick, 12 number eights, 1 uppercase L, 6 spaces, 1 lowercase d, 41 number eights, 1 uppercase P       
 		System.out.println("   `888888888888L      d88888888888888888888888888888888888888888P");
 
 
-		//STUDENT 29: Print 5 spaces, 1 uppercase Y, 12 number eights, 4 lowercase o, 42 number eights, 1 uppercase P
+		//STUDENT 28: Print 5 spaces, 1 uppercase Y, 12 number eights, 4 lowercase o, 42 number eights, 1 uppercase P
 		System.out.println("     Y888888888888oooo888888888888888888888888888888888888888888P");
 
 
-		//STUDENT 30: Print 6 spaces, 1 uppercase Y, 56 number eights, 1 uppercase P
+		//STUDENT 29: Print 6 spaces, 1 uppercase Y, 56 number eights, 1 uppercase P
 		System.out.println("      Y88888888888888888888888888888888888888888888888888888888P");
 
 
-		//STUDENT 31: Print 7 spaces, 1 backtick, 1 uppercase Y, 52 number eights, 1 uppercase P, 1 single quote
+		//STUDENT 30: Print 7 spaces, 1 backtick, 1 uppercase Y, 52 number eights, 1 uppercase P, 1 single quote
 		System.out.println("       `Y8888888888888888888888888888888888888888888888888888P'");
 
 
-		//STUDENT 32: Print 9 spaces, 1 single quote, 1 uppercase Y, 48 number eights, 1 uppercase P, 1 single quote
+		//STUDENT 31: Print 9 spaces, 1 single quote, 1 uppercase Y, 48 number eights, 1 uppercase P, 1 single quote
 		System.out.println("         'Y888888888888888888888888888888888888888888888888P'");
 
 
-		//STUDENT 33: Print 11 spaces, 1 backtick, 1 uppercase P, 45 number eights, 1 single quote
+		//STUDENT 32: Print 11 spaces, 1 backtick, 1 uppercase P, 45 number eights, 1 single quote
 		System.out.println("           `P888888888888888888888888888888888888888888888'");
 
 
-		//STUDENT 34: Print 13 spaces, 1 backtick, 1 uppercase Y, 40 number eights, 1 uppercase P, 1 single quote
+		//STUDENT 33: Print 13 spaces, 1 backtick, 1 uppercase Y, 40 number eights, 1 uppercase P, 1 single quote
 		System.out.println("             `Y8888888888888888888888888888888888888888P'");
 
 
-		//STUDENT 35: Print 15 spaces, 2 backticks, 1 uppercase Y, 34 number eights, 1 uppercase P, 1 single quote
+		//STUDENT 34: Print 15 spaces, 2 backticks, 1 uppercase Y, 34 number eights, 1 uppercase P, 1 single quote
 		System.out.println("               ``Y8888888888888888888888888888888888P'");
 
 
-		//STUDENT 36: Print 19 spaces, 2 single quotes, 1 uppercase Y, 25 number eights, 2 uppercase P, 2 single quotes
+		//STUDENT 35: Print 19 spaces, 2 single quotes, 1 uppercase Y, 25 number eights, 2 uppercase P, 2 single quotes
 		System.out.println("                   ''Y8888888888888888888888888PP''");
 
 
-		//STUDENT 37: Print 23 spaces, 1 backtick, 1 single quote, 1 backtick, 1 uppercase Y, 1 uppercase P, 1 uppercase Y, 12 number eights, 
+		//STUDENT 36: Print 23 spaces, 1 backtick, 1 single quote, 1 backtick, 1 uppercase Y, 1 uppercase P, 1 uppercase Y, 12 number eights, 
 		// 2 uppercase P, 1 single quote, 1 backtick, 2 single quotes
 		System.out.println("                       `'`YPY888888888888PP'`''");
 
 
-		//STUDENT 38: Print 33 spaces, 1 backtick, 2 single quotes
+		//STUDENT 37: Print 33 spaces, 1 backtick, 2 single quotes
 		System.out.println("                                 `''");
 
 
