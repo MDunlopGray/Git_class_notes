@@ -199,15 +199,17 @@ user@yourmachine:~$ git diff HEAD~3 somefile.txt
 
 # **Lab 2 - Using the *helloworld* GitHub Repository**
 1. Clone your *helloworld* repo to your local machine
-1. Go into the *helloworld* directory
+1. Go to the local *helloworld* directory
 1. Create three files called: *fruit.txt*, *colors.txt*, and *universities.txt*
-1. Add three entries to each of the files
+1. Add three entries to each file
 1. Add the files to your *helloworld* GitHub repository
+1. Commit the files to your *helloworld* GitHub repository
 1. Add three more entries to each of the files
 1. Commit these changes to your repo
 1. View your files on GitHub.com
 1. Look at the commit history on GitHub.com
 1. Delete the *universities.txt* file from your repository
+1. Commit the deletion to your repository
 1. **Bonus question**: Is the *universities.txt* file gone forever? If not, can you retrieve it?
 
 # **Ignoring Files**
