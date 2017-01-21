@@ -417,10 +417,20 @@ This lab demonstrates how multiple contributors can work in the same repo. If mu
 
 1. Clone the MultipleContributors repo: ```user@yourmachine:~$ git clone git@github.com:CoachEd/MultipleContributors.git```
 1. Add each student as a collaborator: MultipleContributors > Settings > Collaborators > Add collaborator
+1. Assign students to modify specific sections in Foo.java
+1. Install Java JRE and SDK
+```sh
+user@yourmachine:~$ sudo apt-get update
+user@yourmachine:~$ java -version
+user@yourmachine:~$ sudo apt-get install default-jre
+user@yourmachine:~$ sudo apt-get install default-jdk
+```
+1. Run the completed Java program
 
 * Students *
 1. Clone the MultipleContributors repo: ```user@yourmachine:~$ git clone git@github.com:CoachEd/MultipleContributors.git```
-1. 
+1. Modify your section in Foo.java
+1. Commit your change
 
 # **TODO TOPICS**
 * Merging changes to the same file by multiple developers lab
