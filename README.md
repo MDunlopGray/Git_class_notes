@@ -61,6 +61,18 @@ user@yourmachine:~$ git --version
 * Clone repos via HTTPS or SSH (password protected too)
 * Secure your local computer
 
+## Create Your SSH Public Key
+
+From Git Bash (Windows) or Terminal (Ubuntu):
+
+* Check if the .ssh directory exists in your home directory: ```user@yourmachine:~$ ls -a ~/.ssh ```
+  * If not, create it: ```user@yourmachine:~$ mkdir ~/.ssh ```
+* Create the public and private SSH keys: ```user@yourmachine:~$ ssh-keygen ```
+* See the new files: ```user@yourmachine:~$ ls -a ~/.ssh```
+* Print the contents of the public SSH key: ```user@yourmachine:~$ cat ~/.ssh/id_rsa.pub ```
+* Copy the public key and paste it into _GitHub > Settings > SSH and GPG keys > New SSH key_
+* Now you can clone the repo from your local machine using the SSH URL
+
 # **Lab 1 - Create a GitHub Repository**
 1. Go to [GithHub.com](https://github.com/) and sign up for a free account
 1. For now, consider everything **public**
