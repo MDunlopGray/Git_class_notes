@@ -215,6 +215,7 @@ user@yourmachine:~$ git diff HEAD~3 somefile.txt
 # **Ignoring Files**
 
 Sometimes you don't want Git to version files. Instead, Git should ignore these files completely. You do that with a *.gitignore* file.
+
 * A *.gitignore* file is a plain text file
 * Git ignores entries in the *.gitignore* file 
 * Entries may be file types or entire directories
