@@ -413,7 +413,7 @@ If possible, try to avoid having multiple developers modify a single file simult
 
 This lab demonstrates how multiple contributors can work in the same repo. If multiple developers modify independent sections of the same file, then Git will merge changes.
 
-* Teacher *
+*Teacher*
 
 1. Clone the MultipleContributors repo: ```user@yourmachine:~$ git clone git@github.com:CoachEd/MultipleContributors.git```
 1. Add each student as a collaborator: MultipleContributors > Settings > Collaborators > Add collaborator
@@ -427,7 +427,7 @@ user@yourmachine:~$ sudo apt-get install default-jdk
 ```
 1. Run the completed Java program
 
-* Students *
+*Students*
 1. Clone the MultipleContributors repo: ```user@yourmachine:~$ git clone git@github.com:CoachEd/MultipleContributors.git```
 1. Modify your section in Foo.java
 1. Commit your change
