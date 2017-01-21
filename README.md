@@ -48,17 +48,25 @@
 user@yourmachine:~$ git --version
 ```
 
-## Download it: [link](https://git-scm.com/downloads)
+## Download It: [link](https://git-scm.com/downloads)
 
 ## On Ubuntu: ```user@yourmachine:~$ sudo apt install git ```
 
+## Configure It
+
+Every Git commit identifies you by name and email. From your local machine, tell Git who you are: 
+```sh
+user@yourmachine:~$ git config --global user.email "ertorres@mitre.org"
+user@yourmachine:~$ git config --global user.name "Ed Torres"
+```
+  
 # **Is Git Secure?**
 
 * Remote repos may be in the cloud (e.g., GitHub.com)
 * Remote repos may be inside a corporate network (e.g., Gitlab.mitre.org, MITRE Atlassian Stash)
 * Repos can be private
 * Two-factor authentication (e.g., Bitbucket.org)
-* Clone repos via HTTPS or SSH (password protected too)
+* Clone repos via HTTPS or SSH (including passwords)
 * Secure your local computer
 
 ## Create Your SSH Public Key
@@ -100,10 +108,10 @@ From Git Bash (Windows) or Terminal (Ubuntu):
 * Syntax:
 
 ```sh
-user@yourmachine:~$ git clone https://github.com/CoachEd/helloworld.git
+user@yourmachine:~$ git clone git@github.com:CoachEd/HelloWorld.git
 ```
-* Note the new *helloworld* folder on your computer
-* Add, modify, or delete files and folders in the local repo (helloworld folder)
+* Note the new *HelloWorld* folder on your computer
+* Add, modify, or delete files and folders in the local repo (HelloWorld folder)
 
 ## git status
 * See the current status of your local repo
