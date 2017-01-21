@@ -66,7 +66,7 @@ user@yourmachine:~$ git --version
 From Git Bash (Windows) or Terminal (Ubuntu):
 
 * Check if the .ssh directory exists in your home directory: ```user@yourmachine:~$ ls -a ~/.ssh ```
-  * If not, create it: ```user@yourmachine:~$ mkdir ~/.ssh ```
+    * If not, create it: ```user@yourmachine:~$ mkdir ~/.ssh ```
 * Create the public and private SSH keys: ```user@yourmachine:~$ ssh-keygen ```
 * See the new files: ```user@yourmachine:~$ ls -a ~/.ssh```
 * Print the contents of the public SSH key: ```user@yourmachine:~$ cat ~/.ssh/id_rsa.pub ```
