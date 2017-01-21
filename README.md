@@ -55,7 +55,7 @@ user@yourmachine:~$ git --version
 # **Is Git Secure?**
 
 * Remote repos may be in the cloud (e.g., GitHub.com)
-* Remote repos may be inside a corporate network (e.g., Gitlab.mitre.org)
+* Remote repos may be inside a corporate network (e.g., Gitlab.mitre.org, MITRE Atlassian Stash)
 * Repos can be private
 * Two-factor authentication (e.g., Bitbucket.org)
 * Clone repos via HTTPS or SSH (password protected too)
