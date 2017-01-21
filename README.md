@@ -435,21 +435,39 @@ This lab demonstrates how multiple contributors can work in the same repo. If mu
 1. Modify your section in Foo.java
 1. Commit your change
 
+# Gitlab at MITRE
+[Gitlab at MITRE](https://gitlab.mitre.org/)
+Gitlab at MITRE is like GitHub, but it's hosted inside MITRE. You have access to Gitlab.
+
+# **Lab 7 - Access Your MITRE Gitlab Account**
+
+* Go to [Gitlab at MITRE](https://gitlab.mitre.org/)
+* Log in with your MITRE SUI and passwords
+* Create a repository
+* Add your public SSH key to your Gitlab account
+* Clone the repo
+* Add a file to the repo
+* Commit the file to the repo
+
+# MITRE Atlassian Portal
+[MITRE Atlassian Portal](https://login.codev.mitre.org/portal)
+The MITRE Atlassian Portal is like Bitbucket.org. It includes MITRE Codev tools (more than just Git). The MITRE Atlassian Portal requires access from the administrator.
+
+# **Lab 8 - Atlassian Stash Overview**
+
+* Log into the [MITRE Atlassian Portal](https://login.codev.mitre.org/portal)
+* Navigate the different sections
+* View other repos
+* View Confluence (documentation)
+* View Kanban
+
+
 # **TODO TOPICS**
-* Merging changes to the same file by multiple developers lab
-* Getting started on Gitlab.mitre.org
-* Atlassian Stash (overview)
-* Bitbucket (overview); two-factor authentication option
-* Branches, release branches, merging (create a repo that has multiple branches)
-* Changing branches locally (once you've pulled in a repo that has multiple branches)
 * Markdown files, readme.md, sample.md, online markdown editors:
     * [Dillinger](http://dillinger.io/)
     * [JBT](https://jbt.github.io/markdown-editor/)
     * [StackEdit](https://stackedit.io/editor)
 * Git submodule example
 * Cloning or downloading zip file of TTA566 Gitlab repo
-* Setting up for SSH access
 * Communication and Git: Skype, Slack, HipChat
-*
-*
 
