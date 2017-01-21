@@ -50,6 +50,8 @@ user@yourmachine:~$ git --version
 
 ## Download it: [link](https://git-scm.com/downloads)
 
+## On Ubuntu: ```sh sudo apt install git ```
+
 # **Lab 1 - Create a GitHub Repository**
 1. Go to [GithHub.com](https://github.com/) and sign up for a free account
 1. For now, consider everything **public**
