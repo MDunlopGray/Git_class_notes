@@ -180,10 +180,12 @@ user@yourmachine:~$ git push
 ```
 
 ## Example - Remove a file from version control, but leave it in the working tree and local repository
+```sh
 user@yourmachine:~$ git rm --cached 'docs/some dir/somefile.txt'
 user@yourmachine:~$ git update-index --assume-unchanged 'docs/some dir/somefile.txt'
 user@yourmachine:~$ git commit -m "removed this file from version control" 'docs/some dir/somefile.txt'
 user@yourmachine:~$ git push
+```
 
 ## Example - Get the online version of a file (reverting local changes)
 ```sh
