@@ -187,22 +187,22 @@ Force Git to revert to the most current version, abandoning all local changes:
 user@yourmachine:~$  git checkout HEAD -- somefile.txt
 ```
 
-Roll back the entire repo to a previous commit point
+Roll back the entire repo to a previous commit point (requires a commit hash)
 ```sh
 user@yourmachine:~$  git checkout 12345678901234567890123456789012345678ab .
 user@yourmachine:~$  git commit -m "rolled back the repo" .
 ```
 
 ## git diff
-* Show the differences between local and/or committed files
-* Syntax:
+Show the differences between local and/or committed files
+
+To compare your local version of somefile.txt with the current online repo version:
 
 ```sh
 user@yourmachine:~$ git diff somefile.txt
 ```
-* The above command compares your local version of somefile.txt with the current online repo version
 
-* Show the differences between your local version and the version from _N_ commits ago:
+To show the differences between your local version and the version from _N_ commits ago:
 ```sh
 user@yourmachine:~$ git diff HEAD~3 somefile.txt
 ```
