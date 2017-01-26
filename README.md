@@ -484,7 +484,7 @@ Create a _Personal_ Slack account:
 
 * https://slack.com/
 * Use a personal email address
-* Send me your email address, so I can invite you to _eatstraw_ Slack team: https://eatstraw.slack.com
+* Send me your email address, so I can invite you to the _eatstraw_ Slack team: https://eatstraw.slack.com
 * Explore Slack
 * Send a message to a public channel
 * Send a direct message to someone
@@ -526,14 +526,34 @@ In this lab, we will assign tasks, collaborate on Slack, and modify a Git reposi
 * See the notifications in the _#git_ and _#trello_ Slack channels
 * Mark your Trello task as done
 
+# Markdown Files
 
-
-# **TODO TOPICS**
-* Markdown files, readme.md, sample.md, online markdown editors:
+* Markdown is a lightweight syntax for styling documentation on GitHub
+* [GitHub Guides: Mastering Markdown](https://guides.github.com/features/mastering-markdown/) 
+* [Atlassian Documentation: Markdown syntax guide](https://confluence.atlassian.com/bitbucketserver/markdown-syntax-guide-776639995.html) 
+* Some online Markdown editors:
     * [Dillinger](http://dillinger.io/)
     * [JBT](https://jbt.github.io/markdown-editor/)
     * [StackEdit](https://stackedit.io/editor)
+* Guess what? This course is taught through a Git README.md file
+
+# **Lab 12 - Create a Markdown File**
+
+It is good practice to place a README.md file in your repo. Create a README.md file in any of your repos:
+
+* Use H1 and H2 headings
+* Create a ordered list
+* Create an ordered sublist
+* Create an unordered list
+* Create an unordered sublist
+* Make some text *bold*
+* Make some text _italics_
+* Add an _images_ folder to your repo
+* Add some image to the _images_ folder in your repo
+* Add the image to your README.md file
+
+###### **TODO:**
 * Git submodule example
 * Cloning or downloading zip file of TTA566 Gitlab repo
-* Communication and Git: Skype, Slack, HipChat
+
 
