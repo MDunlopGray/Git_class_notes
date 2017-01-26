@@ -177,9 +177,20 @@ user@yourmachine:~$ git checkout somefile.txt
 ```
 * The above command replaces your local version of *somefile.txt* with the remote repo version of it
 
-### Revert to a version from _N_ commits ago, for example 1 commit ago:
+Revert to a version from _N_ commits ago. This only places it in your local folder; it does not change the remote repo. For example 1 commit ago:
 ```sh
-user@yourmachine:~$  git checkout HEAD~1 index.htm
+user@yourmachine:~$  git checkout HEAD~1 somefile.txt
+```
+
+Force Git to revert to the most current version, abandoning all local changes:
+```sh
+user@yourmachine:~$  git checkout HEAD -- somefile.txt
+```
+
+Roll back the entire repo to a previous commit point
+```sh
+user@yourmachine:~$  git checkout 12345678901234567890123456789012345678ab .
+user@yourmachine:~$  git commit -m "rolled back the repo" .
 ```
 
 ## git diff
@@ -189,7 +200,14 @@ user@yourmachine:~$  git checkout HEAD~1 index.htm
 ```sh
 user@yourmachine:~$ git diff somefile.txt
 ```
-* The above command compares your local version of somefile.txt with the online repo version
+* The above command compares your local version of somefile.txt with the current online repo version
+
+* Show the differences between your local version and the version from _N_ commits ago:
+```sh
+user@yourmachine:~$ git diff HEAD~3 somefile.txt
+```
+
+
 
 ## Typical Workflow
 
