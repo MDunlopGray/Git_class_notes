@@ -480,7 +480,7 @@ The MITRE Atlassian Portal is like Bitbucket.org. It includes MITRE Codev tools 
 
 # **Lab 9 - Create a Personal Slack Account**
 
-Create a _Personal_ Slack account:
+Create a Persona Slack account:
 
 * https://slack.com/
 * Use a personal email address
@@ -497,9 +497,9 @@ Create a _Personal_ Slack account:
 * Wekan is an open source version of Trello
 * MITRE has an internal Wekan site: http://kanban.mitre.org/
 
-# **Lab 10 - Create a _Personal_ Trello Account**
+# **Lab 10 - Create a Personal Trello Account**
 
-Create a _Personal_ Trello account:
+Create a personal Trello account:
 
 * https://trello.com/
 * Use a personal email address
