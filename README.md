@@ -83,7 +83,7 @@ From Git Bash (Windows) or Terminal (Ubuntu):
 * Copy the public key and paste it into _GitHub > Settings > SSH and GPG keys > New SSH key_
 * Now you can clone the repo from your local machine using the SSH URL
 
-# **Lab 1 - Create a GitHub Repository**
+## **Lab 1 - Create a GitHub Repository**
 1. Go to [GithHub.com](https://github.com/) and sign up for a free account
 1. For now, consider everything **public**
 1. Add an avatar to your profile
@@ -230,7 +230,7 @@ user@yourmachine:~$ git checkout somefile.txt
 user@yourmachine:~$ git diff HEAD~3 somefile.txt
 ```
 
-# **Lab 2 - Using the *helloworld* GitHub Repository**
+## **Lab 2 - Using the *helloworld* GitHub Repository**
 1. Clone your *helloworld* repo to your local machine
 1. Go to the local *helloworld* directory
 1. Create three files named: *fruit.txt*, *colors.txt*, and *universities.txt*
@@ -269,7 +269,7 @@ a.out
 foo/
 ```
 
-# **Lab 3 - Ignoring Files and Folders**
+## **Lab 3 - Ignoring Files and Folders**
 1. Create a new repository in GitHub
     * Name it *project1*
 	* Add a *Description*
@@ -304,7 +304,7 @@ To check out a tagged version of the project:
 To get the tag of the current version in the local folder:
 ```git describe --abbrev=0 --tags```
 
-# **Lab 4 - Tagging a Project**
+## **Lab 4 - Tagging a Project**
 1. Create a new repository in GitHub
     * Name it *project2*
 	* Add a *Description*
@@ -380,7 +380,7 @@ git merge develop
 git push origin master
 ```
 	
-# **Lab 5 - Using Master and Develop Branches**
+## **Lab 5 - Using Master and Develop Branches**
 
 1. Create a new repository in GitHub
     * Name it *project3*
@@ -411,7 +411,7 @@ Git allows multiple developers to contribute to the same project. With a web hos
 
 If possible, try to avoid having multiple developers modify a single file simultaneously. However, Git can merge changes if developers modify independent sections.
 
-# **Lab 6 - Multiple Contributors on One File **
+## **Lab 6 - Multiple Contributors on One File **
 
 This lab demonstrates how multiple contributors can work in the same repo. If multiple developers modify independent sections of the same file, then Git will merge changes.
 
@@ -441,7 +441,7 @@ This lab demonstrates how multiple contributors can work in the same repo. If mu
 [Gitlab at MITRE](https://gitlab.mitre.org/)
 Gitlab at MITRE is like GitHub, but it's hosted inside MITRE. You have access to Gitlab.
 
-# **Lab 7 - Access Your MITRE Gitlab Account**
+## **Lab 7 - Access Your MITRE Gitlab Account**
 
 * Go to [Gitlab at MITRE](https://gitlab.mitre.org/)
 * Log in with your MITRE SUI and passwords
@@ -455,7 +455,7 @@ Gitlab at MITRE is like GitHub, but it's hosted inside MITRE. You have access to
 [MITRE Atlassian Portal](https://login.codev.mitre.org/portal)
 The MITRE Atlassian Portal is like Bitbucket.org. It includes MITRE Codev tools (more than just Git). The MITRE Atlassian Portal requires access from the administrator.
 
-# **Lab 8 - Atlassian Stash Overview**
+## **Lab 8 - Atlassian Stash Overview**
 
 * Log into the [MITRE Atlassian Portal](https://login.codev.mitre.org/portal)
 * Navigate the different sections
@@ -478,7 +478,7 @@ The MITRE Atlassian Portal is like Bitbucket.org. It includes MITRE Codev tools 
 * NASA JPL uses Slack
 * MITRE approves Slack, but under specific security requirements
 
-# **Lab 9 - Create a Personal Slack Account**
+## **Lab 9 - Create a Personal Slack Account**
 
 Create a Persona Slack account:
 
@@ -497,7 +497,7 @@ Create a Persona Slack account:
 * Wekan is an open source version of Trello
 * MITRE has an internal Wekan site: http://kanban.mitre.org/
 
-# **Lab 10 - Create a Personal Trello Account**
+## **Lab 10 - Create a Personal Trello Account**
 
 Create a personal Trello account:
 
@@ -515,7 +515,7 @@ Create a personal Trello account:
 * Git integrates with Slack
 * See notifications in the _#git_ Slack channel
 
-# **Lab 11 - Pulling it all Together**
+## **Lab 11 - Pulling it all Together**
 
 In this lab, we will assign tasks, collaborate on Slack, and modify a Git repository.
 
@@ -537,7 +537,7 @@ In this lab, we will assign tasks, collaborate on Slack, and modify a Git reposi
     * [StackEdit](https://stackedit.io/editor)
 * Guess what? This course is taught through a Git README.md file
 
-# **Lab 12 - Create a Markdown File**
+## **Lab 12 - Create a Markdown File**
 
 It is good practice to place a README.md file in your repo. Create a README.md file in any of your repos:
 
