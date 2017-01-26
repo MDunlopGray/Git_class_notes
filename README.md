@@ -177,6 +177,11 @@ user@yourmachine:~$ git checkout somefile.txt
 ```
 * The above command replaces your local version of *somefile.txt* with the remote repo version of it
 
+### Revert to a version from _N_ commits ago, for example 1 commit ago:
+```sh
+user@yourmachine:~$  git checkout HEAD~1 index.htm
+```
+
 ## git diff
 * Show the differences between local and/or committed files
 * Syntax:
