@@ -6,6 +6,8 @@
 ## Links
 * [Git](https://git-scm.com/) - some documentation, downloads, etc. 
 * [GitHub](https://github.com/) - a free web-based Git hosting service
+* [MITRE GitHub Page](https://mitre.github.io/) - Open Source at MITRE
+* [Personal GitHub Page](http://coached.github.io/) - My personal GitHub site
 * [Atlassian Bitbucket](https://bitbucket.org/) - another free web-based Git hosting service
 * [Gitlab at MITRE](https://gitlab.mitre.org/) - like GitHub, but inside MITRE
 * [MITRE Atlassian Portal](https://login.codev.mitre.org/portal) - log in to access MITRE Codev tools
@@ -460,6 +462,70 @@ The MITRE Atlassian Portal is like Bitbucket.org. It includes MITRE Codev tools 
 * View other repos
 * View Confluence (documentation)
 * View Kanban
+
+# Collaboration and Git
+
+* Communication is important in an Agile Development Environment
+* Email is klunky
+* Skype is also klunky
+* Knowledge and communication are better in the flow
+
+## Slack
+
+* Slack is a popular, web-based, real-time, persistent chat application
+* Lots of integrated applications (e.g., JIRA, Trello, ...)
+* Available on multiple platforms (desktop, web, mobile)
+* NASA JPL uses Slack
+* MITRE approves Slack, but under specific security requirements
+
+# **Lab 9 - Create a Personal Slack Account**
+
+Create a _Personal_ Slack account:
+
+* https://slack.com/
+* Use a personal email address
+* Send me your email address, so I can invite you to _eatstraw_ Slack team: https://eatstraw.slack.com
+* Explore Slack
+* Send a message to a public channel
+* Send a direct message to someone
+
+## Trello
+
+* Trello is a popular, web-based, collaboration tool that allows you to organize tasks in _boards_
+* Like Kanban boards in the Agile Development Methodology
+* Integrates with Slack
+* Wekan is an open source version of Trello
+* MITRE has an internal Wekan site: http://kanban.mitre.org/
+
+# **Lab 10 - Create a _Personal_ Trello Account**
+
+Create a _Personal_ Trello account:
+
+* https://trello.com/
+* Use a personal email address
+* Send me your email address, so I can invite you to the _eatstraw_ Trello team: https://trello.com/
+* Claim one of the Student tasks by renaming it with your name
+* Move your Student task to the In-Progress List
+* Add some information to your Student task
+* Tell the Slack _trellobot_ user to do Trello things
+* See Trello notifications in the Slack _#trello_ channel
+
+# Git and Slack
+
+* Git integrates with Slack
+* See notifications in the _#git_ Slack channel
+
+# **Lab 11 - Pulling it all Together**
+
+In this lab, we will assign tasks, collaborate on Slack, and modify a Git repository.
+
+* Send me your GitHub email address, so I can invite you to be a collaborator on my _eatstraw_ GitHub repository
+* Look for a Trello task with specific instructions (I will assign tasks to teams of students)
+* Coordinate on Slack with your teammate(s) to make the changes
+* Commit your changes to the GitHub repository
+* See the notifications in the _#git_ and _#trello_ Slack channels
+* Mark your Trello task as done
+
 
 
 # **TODO TOPICS**
