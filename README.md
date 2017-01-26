@@ -83,7 +83,7 @@ From Git Bash (Windows) or Terminal (Ubuntu):
 * Copy the public key and paste it into _GitHub > Settings > SSH and GPG keys > New SSH key_
 * Now you can clone the repo from your local machine using the SSH URL
 
-## **Lab 1 - Create a GitHub Repository**
+### **Lab 1 - Create a GitHub Repository**
 1. Go to [GithHub.com](https://github.com/) and sign up for a free account
 1. For now, consider everything **public**
 1. Add an avatar to your profile
@@ -497,7 +497,7 @@ Create a Persona Slack account:
 * Wekan is an open source version of Trello
 * MITRE has an internal Wekan site: http://kanban.mitre.org/
 
-## **Lab 10 - Create a Personal Trello Account**
+### **Lab 10 - Create a Personal Trello Account**
 
 Create a personal Trello account:
 
@@ -515,7 +515,7 @@ Create a personal Trello account:
 * Git integrates with Slack
 * See notifications in the _#git_ Slack channel
 
-## **Lab 11 - Pulling it all Together**
+### **Lab 11 - Pulling it all Together**
 
 In this lab, we will assign tasks, collaborate on Slack, and modify a Git repository.
 
@@ -537,7 +537,7 @@ In this lab, we will assign tasks, collaborate on Slack, and modify a Git reposi
     * [StackEdit](https://stackedit.io/editor)
 * Guess what? This course is taught through a Git README.md file
 
-## **Lab 12 - Create a Markdown File**
+### **Lab 12 - Create a Markdown File**
 
 It is good practice to place a README.md file in your repo. Create a README.md file in any of your repos:
 
