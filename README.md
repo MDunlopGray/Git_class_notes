@@ -497,7 +497,7 @@ user@yourmachine:~$ git fetch
 user@yourmachine:~$ git merge origin/master
 ```
 
-## **Lab 7 - Using Master and Develop Branches**
+## **Lab 7 - Git Submodules**
 
 1. Create a new repository in GitHub
     * Name it *projectmain*
@@ -529,6 +529,21 @@ user@yourmachine:~$ git merge origin/master
 1. Pull the latest files from the projectsub submodule.
     * Note the three text files in the projectsub folder.
 
+# Pushing a Repo to Another Remote Repo
+
+* Sometimes you need to push your repo to another host.
+* For example, pushing an internal Atlassian Stash repo to the public GitHub repo
+* You want to maintain all the commit history from the source repo into the destination remote repo
+
+I did this for the course materials. My originals are in Bitbucket.org. I make them available to you at GitLab.mitre.org. Here is the process:
+
+1. Create a new destination repo called tta566 on GitLab.mitre.org.
+1. Clone the tta566 source repo from Bitbucket.org. 
+1. Go into the local folder.
+1. git remote rename origin upstream
+1. git remote add origin git@gitlab.mitre.org:ertorres/tta566.git
+1. git push origin master
+	
 # Gitlab at MITRE
 [Gitlab at MITRE](https://gitlab.mitre.org/)
 Gitlab at MITRE is like GitHub, but it's hosted inside MITRE. You have access to Gitlab.
@@ -646,7 +661,6 @@ It is good practice to place a README.md file in your repo. Create a README.md f
 
 # End
 
-To access the course materials:
 
 
 
