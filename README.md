@@ -460,6 +460,10 @@ This lab demonstrates how multiple contributors can work in the same repo. If mu
 1. Modify your section in Foo.java
 1. Commit your change
 
+# Git Workflows
+
+There are some common patterns of Git Workflows. This is a good description of them: [Comparing Workflows](https://www.atlassian.com/git/tutorials/comparing-workflows).
+
 # Gitlab at MITRE
 [Gitlab at MITRE](https://gitlab.mitre.org/)
 Gitlab at MITRE is like GitHub, but it's hosted inside MITRE. You have access to Gitlab.
