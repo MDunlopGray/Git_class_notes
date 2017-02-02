@@ -67,7 +67,7 @@ user@yourmachine:~$ git config --global user.name "Ed Torres"
 * Remote repos may be in the cloud (e.g., GitHub.com)
 * Remote repos may be inside a corporate network (e.g., Gitlab.mitre.org, MITRE Atlassian Stash)
 * Repos can be private
-* Two-factor authentication (e.g., Bitbucket.org)
+* Two-factor authentication (e.g., Bitbucket.org, GitHub.com)
 * Clone repos via HTTPS or SSH (including passwords)
 * Secure your local computer
 
@@ -464,11 +464,76 @@ This lab demonstrates how multiple contributors can work in the same repo. If mu
 
 There are some common patterns of Git Workflows. This is a good description of them: [Comparing Workflows](https://www.atlassian.com/git/tutorials/comparing-workflows).
 
+# Git Submodules
+
+* Git submodules allow you to have a Git repository as a subdirectory in another Git repository
+* It lets you link to another Git repository, but keep your commits separate from the commits in the other repository
+* For example, your project depends on a third-party library
+
+To add the HelloWorld repo as a Git submodule to your project:
+
+```sh
+user@yourmachine:~$ cd projectfolder
+user@yourmachine:~$ git submodule add git@github.com:CoachEd/HelloWorld.git
+user@yourmachine:~$ git commit -m "adding a submodule" 
+user@yourmachine:~$ git push
+```
+
+To clone a project that has a Git submodule and fetch the latest files from the submodule:
+
+```sh
+user@yourmachine:~$ git clone git@github.com:CoachEd/projectfolder.git
+user@yourmachine:~$ cd projectfolder
+user@yourmachine:~$ cd HelloWorld
+user@yourmachine:~$ git submodule init
+user@yourmachine:~$ git submodule update
+```
+
+To get updates from the HelloWorld Git submodule:
+
+```sh
+user@yourmachine:~$ cd HelloWorld
+user@yourmachine:~$ git fetch
+user@yourmachine:~$ git merge origin/master
+```
+
+## **Lab 7 - Using Master and Develop Branches**
+
+1. Create a new repository in GitHub
+    * Name it *projectmain*
+	* Add a *Description*
+    * Select *Public*
+	* Check *Initialize this repository with a README*
+1. Clone the *projectmain* repo to your local machine
+1. Create a new repository in GitHub
+    * Name it *projectsub*
+	* Add a *Description*
+    * Select *Public*
+	* Check *Initialize this repository with a README*
+1. Go into the *projectmain* directory
+1. Add the projectsub repository as a Git submodule
+1. Go to GitHub and view the projectmain repo. 
+    * Notice the Git submodule projectsub.
+    * Click the projectsub folder to go to the projectsub repo.
+1. Delete the local projectmain folder.
+1. Clone the projectsub repo to your local machine
+1. Go into the local projectsub folder.
+1. Add/commit/push three files to the projectsub repo: file1.txt, file2.txt file3.txt
+1. Delete the local projectsub folder.
+1. Clone the *projectmain* repo to your local machine
+1. Go into the local projectmain folder.
+1. Go into the local projectsub folder.
+    * Note that the projectsub local folder is empty.
+1. Initialize and update the projectsub submodule.
+    * Note the README.md file in the projectsub folder.
+1. Pull the latest files from the projectsub submodule.
+    * Note the three text files in the projectsub folder.
+
 # Gitlab at MITRE
 [Gitlab at MITRE](https://gitlab.mitre.org/)
 Gitlab at MITRE is like GitHub, but it's hosted inside MITRE. You have access to Gitlab.
 
-## **Lab 7 - Access Your MITRE Gitlab Account**
+## **Lab 8 - Access Your MITRE Gitlab Account**
 
 * Go to [Gitlab at MITRE](https://gitlab.mitre.org/)
 * Log in with your MITRE SUI and passwords
@@ -482,7 +547,7 @@ Gitlab at MITRE is like GitHub, but it's hosted inside MITRE. You have access to
 [MITRE Atlassian Portal](https://login.codev.mitre.org/portal)
 The MITRE Atlassian Portal is like Bitbucket.org. It includes MITRE Codev tools (more than just Git). The MITRE Atlassian Portal requires access from the administrator.
 
-## **Lab 8 - Atlassian Stash Overview**
+## **Lab 9 - Atlassian Stash Overview**
 
 * Log into the [MITRE Atlassian Portal](https://login.codev.mitre.org/portal)
 * Navigate the different sections
@@ -505,7 +570,7 @@ The MITRE Atlassian Portal is like Bitbucket.org. It includes MITRE Codev tools 
 * NASA JPL uses Slack
 * MITRE approves Slack, but under specific security requirements
 
-## **Lab 9 - Create a Personal Slack Account**
+## **Lab 10 - Create a Personal Slack Account**
 
 Create a Persona Slack account:
 
@@ -524,7 +589,7 @@ Create a Persona Slack account:
 * Wekan is an open source version of Trello
 * MITRE has an internal Wekan site: http://kanban.mitre.org/
 
-### **Lab 10 - Create a Personal Trello Account**
+### **Lab 11 - Create a Personal Trello Account**
 
 Create a personal Trello account:
 
@@ -542,7 +607,7 @@ Create a personal Trello account:
 * Git integrates with Slack
 * See notifications in the _#git_ Slack channel
 
-### **Lab 11 - Pulling it all Together**
+### **Lab 12 - Pulling it all Together**
 
 In this lab, we will assign tasks, collaborate on Slack, and modify a Git repository.
 
@@ -564,7 +629,7 @@ In this lab, we will assign tasks, collaborate on Slack, and modify a Git reposi
     * [StackEdit](https://stackedit.io/editor)
 * Guess what? This course is taught through a Git README.md file
 
-### **Lab 12 - Create a Markdown File**
+### **Lab 13 - Create a Markdown File**
 
 It is good practice to place a README.md file in your repo. Create a README.md file in any of your repos:
 
@@ -579,8 +644,12 @@ It is good practice to place a README.md file in your repo. Create a README.md f
 * Add some image to the _images_ folder in your repo
 * Add the image to your README.md file
 
-###### **TODO:**
-* Git submodule example
-* Cloning or downloading zip file of TTA566 Gitlab repo
+# End
+
+To access the course materials:
+
+
+
+
 
 
