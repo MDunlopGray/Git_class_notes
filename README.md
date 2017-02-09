@@ -43,6 +43,10 @@
 * **Mary**: I just pulled the latest version. My changes will be in shortly.
 * **Jim**: I just pushed in more changes, but it won't affect either of you.
 
+## How is Git different from SVN or CVS?
+* Git has a staging area
+* Git is decentralized
+
 # **Getting Git**
 
 ## You may already have it.
@@ -135,6 +139,15 @@ user@yourmachine:~$ git status
 
 ```sh
 user@yourmachine:~$ git add somefile.txt
+user@yourmachine:~$ git add .
+```
+
+## git reset
+* Unstage an added file
+* Syntax:
+
+```sh
+user@yourmachine:~$ git reset somefile.txt
 user@yourmachine:~$ git add .
 ```
 
@@ -302,6 +315,7 @@ foo/
 1. Go to the local *project1* directory
 1. Create a C program named *main.c* that prints *Hello C!* to the screen
 1. Compile the *main.c* program
+1. Install Java in Ubuntu Linux: ```sudo apt-get install openjdk-7-jdk```
 1. Create a Java program that prints *Hello Java!* to the screen
 1. Compile the Java program
 1. Create a folder named *private*
