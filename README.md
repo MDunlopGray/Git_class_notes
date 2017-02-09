@@ -405,6 +405,9 @@ To create a branch:
 To check out a branch:
 ```git checkout branchname```
 
+To find out which branch I am on:
+```git branch```
+
 To commit changes to a branch:
 ```git commit -m "some message" .```
 
@@ -422,6 +425,12 @@ git checkout master
 git merge develop
 git push origin master
 ```
+
+To delete a local branch:
+```git branch -d branchname```
+
+To delete a remote branch:
+```git push origin --delete branchname```
 	
 ## **Lab 5 - Using Master and Develop Branches**
 
