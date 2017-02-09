@@ -50,7 +50,7 @@
 user@yourmachine:~$ git --version
 ```
 
-## Download It: [link](https://git-scm.com/downloads)
+## Download It on Windows: [link](https://git-scm.com/downloads)
 
 ## On Ubuntu: ```user@yourmachine:~$ sudo apt install git ```
 
@@ -228,7 +228,7 @@ user@yourmachine:~$ git commit -m "adding a new file to the repo" somefile.txt
 user@yourmachine:~$ git push
 ```
 
-## Example - Deleting a file from version control, but keeping it in the remote repository
+## Example - Deleting a file from version control
 ```sh
 user@yourmachine:~$ git rm somefile.txt
 user@yourmachine:~$ git commit -m "removed this file from version control" somefile.txt
