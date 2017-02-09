@@ -341,6 +341,12 @@ To check out a tagged version of the project:
 To get the tag of the current version in the local folder:
 ```git describe --abbrev=0 --tags```
 
+To remove a tag from the remote repo:
+```git push --delete origin tagname```
+
+To remove a tag from the local repo:
+```git tag --delete tagname```
+
 ## **Lab 4 - Tagging a Project**
 1. Create a new repository in GitHub
     * Name it *project2*
