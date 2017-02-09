@@ -119,6 +119,15 @@ user@yourmachine:~$ git clone git@github.com:CoachEd/HelloWorld.git
 * Note the new *HelloWorld* folder on your computer
 * Add, modify, or delete files and folders in the local repo (HelloWorld folder)
 
+## git pull
+* Pull the latest changes from the remote repo to your local repo
+* You must clone the repo before you can pull it
+* Syntax:
+
+```sh
+user@yourmachine:~$ git pull
+```
+
 ## git status
 * See the current status of your local repo
 * Are there new files/folders not currently versioned?
@@ -219,8 +228,6 @@ To show the differences between your local version and the version from _N_ comm
 ```sh
 user@yourmachine:~$ git diff HEAD~3 somefile.txt
 ```
-
-
 
 ## Typical Workflow
 
