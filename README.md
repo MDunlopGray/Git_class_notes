@@ -434,7 +434,7 @@ Git allows multiple developers to contribute to the same project. With a web hos
 
 If possible, try to avoid having multiple developers modify a single file simultaneously. However, Git can merge changes if developers modify independent sections.
 
-## **Lab 6 - Multiple Contributors on One File **
+## **Lab 6 - Multiple Contributors on One File**
 
 This lab demonstrates how multiple contributors can work in the same repo. If multiple developers modify independent sections of the same file, then Git will merge changes.
 
