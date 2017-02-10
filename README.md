@@ -12,6 +12,9 @@
 * [Gitlab at MITRE](https://gitlab.mitre.org/) - like GitHub, but inside MITRE
 * [MITRE Atlassian Portal](https://login.codev.mitre.org/portal) - log in to access MITRE Codev tools
     * [Atlassian Stash](https://git.codev.mitre.org/) - like Gitlab but requires access
+* [Git From the Inside Out (blog)](https://maryrosecook.com/blog/post/git-from-the-inside-out) - Git behind the scenes 
+* [Git From the Inside Out (video)](https://youtu.be/fCtZWGhQBvo)
+* [The Most Useful Git Commands](https://orga.cat/posts/most-useful-git-commands) - Some useful Git commands
 	
 ## What even is Git?
 * *Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.*
